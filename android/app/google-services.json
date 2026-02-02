@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "828533965928",
+    "project_id": "cluecoin-quiz",
+    "storage_bucket": "cluecoin-quiz.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828533965928:android:460b3049e16a52d6a6a7dd",
+        "android_client_info": {
+          "package_name": "com.cluecoin.cluecoinquizflutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828533965928-mcctpm70lc04s42biroa52f0dsdti22h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cluecoin.cluecoinquizflutter",
+            "certificate_hash": "585fd62fbecbda0511ea081c884f745422b34fe4"
+          }
+        },
+        {
+          "client_id": "828533965928-m16ld9pkh1vm2gevmi2td528p25tpnlt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfSCI-2qnd0sBQd14eXjrda3CbG97w9_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828533965928-m16ld9pkh1vm2gevmi2td528p25tpnlt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
