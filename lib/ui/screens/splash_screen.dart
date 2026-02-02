@@ -51,18 +51,18 @@ class _SplashScreenState extends State<SplashScreen>
   @override
   void initState() {
     super.initState();
-    // Future.delayed(Duration.zero, () async {
-    //   await _initLanguage()
-    //       .then((_) async {
-    //         await _fetchSystemConfig();
-    //       })
-    //       .catchError((Object? e) {
-    //         setState(() {
-    //           languageError = e.toString();
-    //         });
-    //       });
-    // });
-    // _initAnimations();
+    Future.delayed(Duration.zero, () async {
+      await _initLanguage()
+          .then((_) async {
+            await _fetchSystemConfig();
+          })
+          .catchError((Object? e) {
+            setState(() {
+              languageError = e.toString();
+            });
+          });
+    });
+    _initAnimations();
   }
 
   @override
