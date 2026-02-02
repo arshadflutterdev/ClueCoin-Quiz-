@@ -13,7 +13,7 @@ const packageName = 'com.cluecoin.cluecoinquizflutter';
 // NOTE: make sure to check if admin panel is http or https
 
 // Demo panel
-// const panelUrl = 'cluecoin.com.ng';
+const panelUrl = 'https://admin.cluecoin.com.ng';
 
 /// === Branding ===
 ///
